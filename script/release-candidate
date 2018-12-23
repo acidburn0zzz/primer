@@ -38,7 +38,7 @@ revertPackages()
       .then(updated => pkgs.filter(pkg => updated.includes(pkg.name)))
       .then(updated => {
         if (updated.length === 0) {
-          console.warn('No packages updated! Aborting'.)
+          console.warn('No packages updated! Aborting.')
           return
         }
         console.warn('%d packages updated...', updated.length)
