@@ -40,7 +40,7 @@
     "cssstats": "^3.2.0",
     "fs-extra": "^4.0.2",
     "meow": "^3.7.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "node-sass-import": "^2.0.0",
     "pify": "^3.0.0",
     "postcss": "^5.2.5"
